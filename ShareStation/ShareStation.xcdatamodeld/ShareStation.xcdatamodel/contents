@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Event" representedClassName="InteractiveMediaExperience" syncable="YES">
+        <attribute name="minimumAge" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="optInMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="summary" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tcMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PhotoOverlay" representedClassName="PhotoOverlay" syncable="YES">
+        <attribute name="overlayImgData" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="ShareStationCustomer" representedClassName="ShareStationCustomer" syncable="YES">
+        <attribute name="acceptsSpam" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="acceptsTCs" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="age" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventId" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nameFirstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nameLastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="postalCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scheduledForUpload" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="street1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="street2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeCreated" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="uploadedToCloud" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="-56" positionY="-72" width="128" height="118"/>
+        <element name="PhotoOverlay" positionX="-56" positionY="-198" width="128" height="58"/>
+        <element name="ShareStationCustomer" positionX="-317" positionY="-198" width="128" height="315"/>
+    </elements>
+</model>
